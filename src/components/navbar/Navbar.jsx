@@ -57,7 +57,7 @@ const Navbar = () => {
                                 )}
                                 <Link className='link' to="/orders">Pesanan</Link>
                                 <Link className='link' to="/messages">Pesan</Link>
-                                <Link>Keluar</Link>
+                                <Link className='link'>Keluar</Link>
                         </div>}
                     </div>
                 )}
