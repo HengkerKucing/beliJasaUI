@@ -26,6 +26,18 @@
                 max-width: 600px;
                 font-size: 18px;
 
+                &.owner{
+                    flex-direction: row-reverse;
+                    align-self: flex-end;
+                    
+                    p{
+                        border-radius: 20px 0px 20px 20px;
+                        background-color: royalblue;
+                        color: white;
+                    }
+
+                }
+
                 img{
                     width: 40px;
                     height: 40px;
@@ -37,9 +49,40 @@
                     padding: 20px;
                     background-color: rgb(224, 224, 224);
                     border-radius: 0px 20px 20px 20px;
+                    color: gray;
+                    font-weight: 300;
                 }
             }
         }
-        .write{}
+
+        hr{
+            height: 0;
+            border: 0.5px solid rgb(232, 232, 232);
+            margin-bottom: 20px;
+        }
+
+        .write{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            textarea{
+                width: 80%;
+                height: 100px;
+                padding: 10px;
+                border: 1px solid lightgray;
+                border-radius: 10px;
+            }
+
+            button{
+                background-color: #1dbf73;
+                padding: 15px 30px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
     }
 }

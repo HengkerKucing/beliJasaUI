@@ -14,7 +14,7 @@ const Message = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
             </p> 
           </div>
-          <div className="item">
+          <div className="item owner">
             <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
@@ -26,7 +26,7 @@ const Message = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
             </p> 
           </div>
-          <div className="item">
+          <div className="item owner">
             <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
@@ -38,32 +38,14 @@ const Message = () => {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
             </p> 
           </div>
-          <div className="item">
+          <div className="item owner">
             <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
             </p> 
           </div>
-          <div className="item">
-            <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
-            </p> 
-          </div>
-          <div className="item">
-            <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
-            </p> 
-          </div>
-          <div className="item">
-            <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestiae sunt commodi dolorum reiciendis, atque eveniet ullam id quasi libero labore. Neque veniam soluta harum similique veritatis, amet aliquid debitis!
-            </p> 
-          </div>
-
         </div>
+        <hr />
         <div className="write">
           <textarea name="" id="" placeholder='Tulis pesan' cols="30" rows="10"></textarea>
           <button>Kirim</button>
